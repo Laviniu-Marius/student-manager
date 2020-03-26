@@ -7,15 +7,6 @@ public class Student {
     private String lastName;
     private int age;
     private double meanGrade;
-}
-
-package loose.oose.fis.lab.student.manager.model;
-
-public class Student {
-    private String firstName;
-    private String lastName;
-    private int age;
-    private double meanGrade;
 
     public Student(String firstName, String lastName, int age, double meanGrade) {
         this.firstName = firstName;
@@ -81,6 +72,6 @@ public class Student {
     public void setMeanGrade(double meanGrade) {
         this.meanGrade = meanGrade;
     }
-    
+
 
 }
